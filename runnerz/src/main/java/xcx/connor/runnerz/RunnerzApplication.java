@@ -14,7 +14,6 @@ import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 
 import xcx.connor.runnerz.user.User;
 import xcx.connor.runnerz.user.UserHttpClient;
-import xcx.connor.runnerz.user.UserRestClient;
 
 @SpringBootApplication
 public class RunnerzApplication {
