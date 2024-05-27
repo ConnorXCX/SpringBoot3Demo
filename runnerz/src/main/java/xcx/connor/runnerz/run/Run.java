@@ -10,8 +10,7 @@ import jakarta.validation.constraints.Positive;
 
 public record Run(@Id Integer id, @NotEmpty String title, LocalDateTime startedOn, LocalDateTime completedOn,
                 @Positive Integer miles,
-                Location location,
-                @Version Integer version) {
+                Location location) {
 
         public Run {
                 if (!completedOn.isAfter(startedOn)) {
